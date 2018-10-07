@@ -7,4 +7,4 @@ include_directories(../libgreetingword)
 
 add_executable(greetings main.cpp)
 
-target_link_libraries(greetings libgreetingword.dylib)
+target_link_libraries(greetings greetingword)

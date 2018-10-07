@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_library(greetingword SHARED greetingword.cpp greetingword.h)
 
-install(TARGETS greetingword DESTINATION /usr/local/lib)
+install(TARGETS greetingword DESTINATION lib)
